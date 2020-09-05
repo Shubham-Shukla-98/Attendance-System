@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<title>Entering class into database</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+<!--
+.style1 {font-family: Verdana, Arial, Helvetica, sans-serif}
+-->
+        </style>
+</head>
+<body>
+    <div class="style1">Entering Student into database</div>
+    <form method="POST" class="style1" action="add">
+        <table border="0" width="285" cellspacing="2">
+            <tbody>
+                <tr>
+                    <td width="124">Name : </td>
+                    <td width="151"><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Roll No  :</td>
+                    <td><input type="text" name="roll_no"></td>
+                </tr>
+                <tr>
+                    <td>Section :</td>
+                    <td><select name="section">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select></td>
+                </tr>
+				<tr>
+                    <td>Group :</td>
+                    <td><select name="group">
+                      <option>A</option>
+                      <option>B</option></select></td>
+				</tr>
+				<tr>
+                    <td>Sem :</td>
+                    <td><select name="sem">
+                      <option>1</option>
+                      <option>3</option>
+					  <option>5</option>
+					  <option>7</option>
+					  </select>
+					</td>
+				</tr>
+				<tr>
+                    <td>Branch :</td>
+                    <td><select name="branch">
+                      <option>CSE</option>
+                      <option>MECH</option>
+                      <option>IT</option>
+                      <option>CIVIL</option>
+                      <option>ECE</option>
+                      <option>ECS</option>
+                      <option>CSIT</option>
+                    </select></td>
+				</tr>
+            </tbody>
+      </table><input type="submit" value="Create" name="Create" />
+    </form>
+</body>
+</html>
